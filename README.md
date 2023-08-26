@@ -8,8 +8,8 @@ Key Features:
 
 # Get Started
 1. Clone the repository;
-2. run `docker compose up` at the root folder of the project;
-3. When the compose stack launches, go to http://localhost:8080/swagger/index.html to access the service responsible for processing the currency data, or http://localhost:8080/swagger/index.html to access the service responsible for the email campaigns.
+2. Run `docker compose up` at the root folder of the project;
+3. Whenever the compose stack launches, go to http://localhost:8080/swagger/index.html to access the service responsible for processing the currency data, or http://localhost:8080/swagger/index.html to access the service responsible for the email campaigns.
 
 # !!! Important
 **The application relies on SendGrid for sending emails. In order to enable sending emails by the application, you need to provide details of your SendGrid sender to the application, using environmental variables.**
